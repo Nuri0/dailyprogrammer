@@ -144,7 +144,7 @@ List of existing events
         rl.write("There are currently no events available.\n")
     } else {
         events.forEach(event => {
-            rl.write(event.id + " - " + event.hour + ":" + event.minute + ' "' + event.title + '"\n');
+            rl.write(`${event.id} - ${event.hour}:${event.minute} "${event.title}"\n`);
         })
     }
     rl.write("\n");

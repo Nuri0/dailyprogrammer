@@ -16,7 +16,7 @@ const parseLine = (line) => {
     
 }
 
-let reg = /(\d+)\s+(\d+)\s+(\d+)\s+([\w\s',.\-äÄöÖüÜ]+)/;
+let reg = /(\d+)\s+(\d+)\s+(\d+)\s+(.*)/;
 
 rl.on("line", (line) => {
     let packet = reg.exec(line);

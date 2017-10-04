@@ -11,11 +11,6 @@ let rl = readline.createInterface({
 
 let msgBuffer = {};
 
-const parseLine = (line) => {
-    console.log(line);
-    
-}
-
 let reg = /(\d+)\s+(\d+)\s+(\d+)\s+(.*)/;
 
 rl.on("line", (line) => {

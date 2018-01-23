@@ -38,5 +38,4 @@ const rabbitProblem = (m,f,neededAlive) => {
 }
 
 console.log(rabbitProblem(2,4,1000000000));
-console.log(rabbitProblem(2,4,1000000000));
 console.log(rabbitProblem(2,4,15000000000));

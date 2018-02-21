@@ -1,0 +1,7 @@
+{
+    "name": "dailyprogrammer-solutions",
+    "description": "My solutions to some of the challenges from /r/dailyprogrammer in Javascript (Node.js)",
+    "dependencies": {
+        "bignumber.js": "^6.0.0"
+    }
+}
